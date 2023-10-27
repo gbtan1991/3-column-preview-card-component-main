@@ -8,11 +8,10 @@ const Cards = ({ car }) => {
     <div className="w-10/12 sm:w-auto">
       <div
         className={`${ 
-          car.id === 1
-            ? "bg-brightOrange p-12 rounded-tl-md rounded-tr-md rounded-bl-none md:rounded-tr-none md:rounded-bl-md "
-            : car.id === 2
-            ? "bg-darkCyan p-12 "
-            : "bg-veryDarkCyan p-12  rounded-bl-md rounded-br-md md:rounded-bl-none md:rounded-tr-md"
+            car.styling
+            
+            
+            
         }`}
       >
         <div className="w-full ">
